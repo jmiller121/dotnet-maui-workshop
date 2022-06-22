@@ -265,7 +265,7 @@ We will use an `ObservableCollection<Monkey>` that will be cleared and then load
     using MonkeyFinder.Services;
     ```
 
-1. We also need access to our `MonkeyService`, which we will inject throught he constructor:
+1. We also need access to our `MonkeyService`, which we will inject through the constructor:
 
     ```csharp
     public ObservableCollection<Monkey> Monkeys { get; } = new();
@@ -665,7 +665,7 @@ It is now time to build the .NET MAUI user interface in `View/MainPage.xaml`. Ou
 ```
 
 
-1. Finally, In the `MainPage.xaml`, we can add a `ActivityIndicator` above all of our controls at the very bottom or `Grid` that will show an indication that something is happening when we press the `Get Monkeys` button.
+1. Finally, In the `MainPage.xaml`, we can add a `ActivityIndicator` above all of our controls at the very bottom of `Grid` that will show an indication that something is happening when we press the `Get Monkeys` button.
 
 ```xml
 <ContentPage
